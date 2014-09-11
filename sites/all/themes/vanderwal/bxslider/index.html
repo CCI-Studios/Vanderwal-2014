@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="jquery.bxslider.css" rel="stylesheet" />
+<script src="http://bxslider.com/js/jquery.min.js"></script>
+<script src="jquery.bxslider.js"></script>
+</head>
+
+<body>
+<ul class="bxslider">
+  <li><img src="tree_root.jpg" /></li>
+  <li><img src="houses.jpg" /></li>
+  <li><img src="hill_fence.jpg" /></li>
+</ul>
+
+<div id="bx-pager">
+  <a data-slide-index="0" href=""><img src="tree_root1.jpg" /></a>
+  <a data-slide-index="1" href=""><img src="houses1.jpg" /></a>
+  <a data-slide-index="2" href=""><img src="hill_fence1.jpg" /></a>
+</div>
+<script type="text/javascript">
+$('.bxslider').bxSlider({
+  pagerCustom: '#bx-pager'
+});
+</script>
+</body>
+</html>

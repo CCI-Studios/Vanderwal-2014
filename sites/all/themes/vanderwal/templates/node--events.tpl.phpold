@@ -1,0 +1,31 @@
+	  <div class="content_heading">	<?php
+ print $node->title; 
+?></div>
+<?php  $body=$node->body['und'][0]['value']; 
+if($body!=0)
+{?>
+	  <div class="events_box">
+		<?php
+ print $body; 
+?>
+<?php } ?>
+        </div>
+		
+		<?php  print_r($node->field_package_description);exit();
+//if($package!=0)
+//{?>
+		
+		<div style="margin:17px 0 0; float:left;" class="content_heading">The <strong>Package</strong></div>
+		<div class="the_package">
+		<?php //print $package; ?>
+        </div>
+		<?php //} ?>
+				<?php /* $programme=$node->field_programme_description['und'][0]['value'];
+if($programme!=0)
+{?>
+		<div style="margin:17px 0 0; float:left;" class="content_heading">The <strong>Programme</strong></div>
+		<div class="the_package">
+		<?php print $programme; ?>
+        </div>
+		<div class="para"><?php print $node->field_event_bottom_body['und'][0]['value']; ?></div>
+		<?php } */?>
