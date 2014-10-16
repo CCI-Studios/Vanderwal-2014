@@ -283,13 +283,13 @@
     #block-views-technical-data-block .views-field-title .field-content,
     #block-views-faq-block .views-field-title .field-content {
         width: 100%!important;
-        background-size: 50% 100%!important;
+        background-image:none !important;
     }
     #block-views-steel-advantage-block .views-field-body,
     #block-views-products-services-block .views-field-body,
     #block-views-technical-data-block .views-field-body,
     #block-views-faq-block .views-field-body {
-        width: 88%!important;
+        width: auto!important;
     }
     #block-views-container-building-block .views-field-body .field-content,
     #block-views-products-services-block .views-field-body .field-content,
@@ -297,14 +297,15 @@
     #block-views-technical-data-block .views-field-body .field-content,
     #block-views-container-building-block .views-field-body .field-content,
     #block-views-faq-block .views-field-body .field-content {
-        width: 95%!important;
+        width: 100%!important;
     }
     #block-views-steel-advantage-block .views-field-view-node,
     #block-views-container-building-block .views-field-view-node,
     #block-views-products-services-block .views-field-view-node,
     #block-views-technical-data-block .views-field-view-node,
     #block-views-faq-block .views-field-view-node {
-        right: 20px!important;
+        right: 5px!important;
+        left: auto;
         max-width: 100%;
         margin-top: 0px!important;
     }
@@ -320,17 +321,11 @@
     .view-products-services .views-field-title .field-content a,
     .view-technical-data .views-field-title .field-content a,
     .view-faq .views-field-title .field-content a {
-        font-size: 22px;
+        font-size: 22px !important;
         line-height: 22px !important;
-        max-width: 120px !important;
-        padding: 0 0 0 150px !important;
-    }
-    .view-steel-advantage .field-content a,
-    .view-container-building .field-content a,
-    .view-products-services .field-content a,
-    .view-technical-data .field-content a,
-    .view-faq .field-content a {
-        padding: 0 0 0 150px;
+        max-width: none !important;
+        width: auto !important;
+        padding: 0 50px 0 20px !important;
     }
     #block-views-steel-advantage-block .views-field-view-node a,
     #block-views-container-building-block .views-field-view-node a,
@@ -744,7 +739,7 @@
     #block-views-products-services-block .views-field-title .field-content,
     #block-views-technical-data-block .views-field-title .field-content,
     #block-views-faq-block .views-field-title .field-content {
-        background-size: 50% 100% !important;
+        background-image:none !important;
         padding: 0 20px !important;
         width: 90% !important;
     }
@@ -768,18 +763,9 @@
     #block-views-technical-data-block .views-field-view-node,
     #block-views-faq-block .views-field-view-node {
         right: 20px!important;
+        left: auto;
         max-width: 100%;
         margin-top: 0px!important;
-    }
-    .view-steel-advantage .field-content a,
-    .view-container-building .field-content a,
-    .view-products-services .field-content a,
-    .view-technical-data .field-content a,
-    .view-faq .field-content a {
-        font-size: 22px !important;
-        margin: 30px 0 !important;
-        max-width: 42%;
-        padding: 0 !important;
     }
     #block-views-steel-advantage-block .views-field-view-node a,
     #block-views-container-building-block .views-field-view-node a,
@@ -830,19 +816,14 @@
         max-width: 78px!important;
         max-height: 78px!important;
     }
-    .view-steel-advantage .field-content a,
-    .view-container-building .field-content a,
-    .view-products-services .field-content a,
-    .view-technical-data .field-content a,
-    .view-faq .field-content a {
-        padding: 0 0 0 150px;
-    }
     .view-steel-advantage .views-field-title .field-content a,
     .view-container-building .views-field-title .field-content a,
     .view-products-services .views-field-title .field-content a,
     .view-technical-data .views-field-title .field-content a,
     .view-faq .views-field-title .field-content a {
-        padding: 0 0 0 178px!important;
+        padding: 0 50px 0 20px!important;
+        font-size: 25px !important;
+        text-align: left !important;
     }
     /*------------------------galleria slider end------------------------*/
     /*------------------------view slideshow----------------------------*/
@@ -1147,16 +1128,6 @@
         display: table!important;
         min-width: 80%!important;
     }
-    .view-steel-advantage .field-content a,
-    .view-container-building .field-content a,
-    .view-products-services .field-content a,
-    .view-technical-data .field-content a,
-    .view-faq .field-content a {
-        font-size: 22px !important;
-        margin: 30px 6px !important;
-        max-width: 42%;
-        padding: 0 !important;
-    }
     #block-views-container-building-block .views-field-body {
         max-width: 100%;
     }
@@ -1416,18 +1387,10 @@
     #block-views-products-services-block .views-field-view-node,
     #block-views-technical-data-block .views-field-view-node,
     #block-views-faq-block .views-field-view-node {
-        margin-top: 10px !important;
+        margin-top: 0 !important;
         max-width: 100%;
-        right: 52px !important;
-    }
-    .view-steel-advantage .field-content a,
-    .view-container-building .field-content a,
-    .view-products-services .field-content a,
-    .view-technical-data .field-content a,
-    .view-faq .field-content a {
-        max-width: 52%;
-        margin: 10px 0;
-        font-size: 22px!important;
+        right: 20px !important;
+        left: auto;
     }
     #block-views-steel-advantage-block .views-field-view-node a,
     #block-views-container-building-block .views-field-view-node a,
@@ -1527,7 +1490,8 @@
     .view-products-services .views-field-title .field-content a,
     .view-technical-data .views-field-title .field-content a,
     .view-faq .views-field-title .field-content a {
-        padding: 0 0 0 347px !important;
+        padding: 0 50px 0 50% !important;
+        font-size: 25px !important;
     }
 }
 
@@ -1714,14 +1678,6 @@
     .html5gallery-tn-img-play-4 {
         display: none!important;
     }
-    #block-views-steel-advantage-block .views-field-view-node,
-    #block-views-container-building-block .views-field-view-node,
-    #block-views-products-services-block .views-field-view-node,
-    #block-views-technical-data-block .views-field-view-node,
-    #block-views-faq-block .views-field-view-node {
-        margin-left: 865px !important;
-        margin-top: 18px !important;
-    }
 }
 /*-*-*-*-*-*-*-*-*-*- Style CSS -*-*-*-*-*-*-*-*-*-*/
 
@@ -1820,6 +1776,11 @@ ul.top_social li a {
                 z-index: 1;
             }
         }
+    }
+    
+    .view-technical-data .views-field-body ul li
+    {
+        width: 100% !important;
     }
 }
 
