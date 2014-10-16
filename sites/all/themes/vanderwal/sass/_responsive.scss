@@ -35,7 +35,7 @@
     .first_part {
         background-image: url("../images/res_main_bg.jpg")!important;
         background-repeat: no-repeat!important;
-        background-position: center center!important;
+        background-position: top center!important;
         background-color: #000 !important;
         height: 394px !important;
     }
@@ -110,8 +110,8 @@
     /*----- /end Responsive Menu -----*/
     
     .banner_right {
-        margin: 29px 0 0 !important;
-        width: 85% !important;
+        margin: 0 !important;
+        width: 100% !important;
     }
     .banner_right h1 {
         border-bottom: 1px solid #0072bc !important;
