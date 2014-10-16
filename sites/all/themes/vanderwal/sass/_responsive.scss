@@ -1678,6 +1678,21 @@
     .html5gallery-tn-img-play-4 {
         display: none!important;
     }
+    
+    #block-views-faq-block .views-field-view-node
+    {
+        right: 10px !important;
+        left: auto !important;
+    }
+    #block-views-faq-block .views-field-title .field-content
+    {
+        background-size: 50% 100% !important;
+    }
+    .view-faq .views-field-title .field-content a
+    {
+        padding: 0 50px 0 50% !important;
+        width: auto !important;
+    }
 }
 /*-*-*-*-*-*-*-*-*-*- Style CSS -*-*-*-*-*-*-*-*-*-*/
 
