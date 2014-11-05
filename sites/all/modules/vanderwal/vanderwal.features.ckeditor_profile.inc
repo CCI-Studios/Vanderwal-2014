@@ -17,7 +17,7 @@ function vanderwal_ckeditor_profile_defaults() {
     [\'Format\',\'Bold\',\'Italic\',\'Underline\',\'Strike\',\'-\',\'RemoveFormat\'],
     [\'NumberedList\',\'BulletedList\',\'-\',\'Outdent\',\'Indent\'],
     [\'JustifyLeft\',\'JustifyCenter\',\'JustifyRight\'],
-    [\'Table\',\'Link\',\'Unlink\',\'Image\']
+    [\'Table\',\'Link\',\'Unlink\',\'Image\',\'Youtube\']
 ]',
         'expand' => 't',
         'default' => 't',
@@ -65,6 +65,18 @@ function vanderwal_ckeditor_profile_defaults() {
             'path' => '//cdn.ckeditor.com/4.4.3/full-all/plugins/tableresize/',
             'buttons' => FALSE,
             'default' => 't',
+          ),
+          'youtube' => array(
+            'name' => 'youtube',
+            'desc' => 'Plugin file: youtube',
+            'path' => '%plugin_dir%youtube/',
+            'buttons' => array(
+              'Youtube' => array(
+                'label' => 'Youtube',
+                'icon' => 'images/icon.png',
+              ),
+            ),
+            'default' => 'f',
           ),
         ),
       ),
